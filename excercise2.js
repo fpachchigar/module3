@@ -1,3 +1,7 @@
+//let three = "3"
+//let four = "4"
+//let thirty = "30" 
+//these are strings so it not operate as expected writing numbers will work as a numbers.
 console.log (three = Number("3"));
 console.log (four = Number("4"));
 console.log (thirty = Number("30"))
