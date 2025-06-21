@@ -9,17 +9,17 @@ const rugen = {
 const inigo = {
   firstName: "Inigo",
   lastName: "Montoya", //last name
-   
+
   greeting(person) {
     let greeting = `Hello ${person.name} , 
 my name is ${this.firstName}  ${this.lastName}, `;
     console.log(greeting + this.getCatchPhrase(person));
   },
-    getCatchPhrase: (person) => 
-    person.numFingers === 6 
-    ? 'You killed my father. Prepare to die.'
-  : 'Nice to meet you.'
-}
+  getCatchPhrase: (person) =>
+    person.numFingers === 6
+      ? "You killed my father. Prepare to die."
+      : "Nice to meet you.",
+};
 
 inigo.greeting(westley);
 inigo.greeting(rugen);
