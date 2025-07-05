@@ -15,26 +15,8 @@ decimal numbers float1 and float2 and returns the correct float result.*/
 function currencyAddition(float1, float2) {
   return Math.round((float1 + float2) * 100) / 100;
 }
-console.log(currencyAddition(0.1, 0.2));
+console.log(0.3 == currencyAddition(0.1, 0.2));
 
 /*c) Create a function currencyOperation(float1, float2, operation) which
 safely performs the given operation (either +, -, / or *) on the two numbers and returns
 the correct float result.*/
- function currencyOperation(float1, float2, operation) {
-    let result;
-
-    /*switch (operation) {
-        case '+':
-            result = float1 + float2;
-        case '-':
-            result = float1 - float2;
-        case '*':
-            result = float1 * float2;
-        case '/':
-            result = float1 / float2;
-        default:
-            throw new Error("Invalid operation");
-    }
-     return Math.round(result * 100) / 100; // 2 decimals*/
- }
-    console.log(currencyOperation(0.1, 0.2, '+'));
